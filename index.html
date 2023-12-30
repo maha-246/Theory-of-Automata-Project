@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DFA Simulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="text" id="inputString" placeholder="Enter string (0s and 1s)">
+        <button onclick="processString()">Check String</button>
+        <div id="result"></div>
+        
+    </div>
+
+    <div id="dfaContainer">
+        <div class="state" id="q0">q0</div>
+        <div class="state" id="q1">q1</div>
+        <div class="state" id="q2">q2</div>
+        <div class="state" id="q3">q3</div>
+        <!-- Add more states as needed -->
+        
+        <div id="arrow-q0q1"></div>
+       
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
